@@ -4,10 +4,9 @@
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "lite": "lite-server",
+    "lite": "lite-server --baseDir dist/",
     "start": "concurrent \"npm run tsc:w\" \"npm run lite\" "
   },
-  "license": "ISC",
   "dependencies": {
     "angular2": "2.0.0-beta.2",
     "systemjs": "0.19.6",
